@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #E64848;
+  }
+  
+  main {
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 17%;
+  }
+
+  h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border: transparent;
+    color: #E64848;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+  }
+  
+  button:first-child {
+    background-color: white;
+  }
+  
+  button:nth-child(2) {
+    background-color: white;
+  }
+  
+  div.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    margin-top: 30px;
+    
+  }
+  
